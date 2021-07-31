@@ -9,9 +9,29 @@
       color:red;
 
     }
-    .work-card img{
-
+    .dsk-logo img{
+       border:2px solid #fff;
+  background: url(public/assets/image/logo1.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
     }
+    .img-responsive img{
+      width: 450px;
+  height: 550px;
+  border:2px solid #fff;
+  background: url(public/assets/image/mob_app.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    }
+    
   </style>
 <meta charset="utf-8" />
 <title>Cristian App Developer</title>
@@ -44,28 +64,28 @@
 
 <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
     <div class="menu-header">
-     <div class="dsk-logo"><a class="nav-brand" href="index.html">
+     <div class="dsk-logo"><a class="nav-brand" href="<?php echo base_url();?>/public/assets/images/logo1.png">
        <img src="public/assets/images/logo1.png" alt="Logo" class="mega-white-logo" />
        <img src="public/assets/images/logo1.png" alt="Logo" class="mega-darks-logo" />
                    </a>
      </div>
-<div class="custom-nav" role="navigation">
+<div class="custom-nav" >
 <ul class="nav-list">
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a href="home" class="menu-links">Home</a>
 
 </li>
-<li class="sbmenu rpdropdown">
+<li class="rpdropdown">
 <a href="service" class="menu-links">Services</a>
 
 </li>
 
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a href="about" class="menu-links">About Us</a>
 
 </li>
 <li>
-<li class="sbmenu rpdropdown">
+<li class= "rpdropdown">
 <a href="contact" class="menu-links">Contact Us</a>
 
 </li>
@@ -83,10 +103,10 @@
 <div class="hero-main-rp container-fluid">
 <div class="row">
 <div class="col-lg-5">
-<div class="hero-heading-sec">
-<h3 class="wow fadeIn" data-wow-delay="0.3s" style="color: white;"><span>Our Expert team of designers and developers. </span> <span>Ready to transform your business. <br></span><span>  let's get in touch.</span></h3>
+<div class="hero-heading-sec" style="padding:20px">
+<h3 class="wow fadeIn" data-wow-delay="0.3s" style="color: white; font-size: 50px;   text-shadow: 2px 2px black;"><span>Our Expert team of designers and developers. </span> <span>Ready to transform your business. <br></span><span>  let's get in touch.</span></h3>
 <p class="wow fadeIn" data-wow-delay="0.6s">Website and App development solution for transforming and innovating businesses.</p>
-<a href="case-study.html" class="btn-main bg-btn lnk wow fadeIn" data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
+<a href="service" class="btn-main bg-btn lnk wow fadeIn" data-wow-delay="0.8s">Our Services<i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
 
 </div>
 </div>
@@ -101,7 +121,7 @@
 <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
 <div class="owl-carousel service-card-prb">
 <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-<a href="#">
+<a href="service">
 <div class="service-card-hh">
 <div class="image-sr-mm">
 <img alt="custom-sport" src="public/assets/images/service/mob_app.jpg">
@@ -111,7 +131,7 @@
 </a>
 </div>
 <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-<a href="#">
+<a href="service">
 <div class="service-card-hh">
 <div class="image-sr-mm">
 <img alt="custom-sport" src="public/assets/images/service/web_dev.jpg">
@@ -121,7 +141,7 @@
 </a>
 </div>
 <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-<a href="#">
+<a href="service">
 <div class="service-card-hh">
 <div class="image-sr-mm">
 <img alt="custom-sport" src="public/assets/images/service/bus_auto.jpg">
@@ -131,7 +151,7 @@
 </a>
 </div>
 <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-<a href="#">
+<a href="service">
 <div class="service-card-hh">
 <div class="image-sr-mm">
 <img alt="custom-sport" src="public/assets/images/service/web_host.jpg">
@@ -273,8 +293,9 @@
 <section class="about-sec-rpb pad-tb">
 <div class="container">
 <div class="row justify-content-center text-center">
-<div class="col-lg-5">
-<div class="img-responsive"><img height="550px" width="450px" src="public/assets/images/service/mob_app.jpg"></div>
+<div class="col-lg-5 col-sm-6">
+  
+<div class="img-responsive" data-tilt data-tilt-max="5" data-tilt-speed="1000" class="single-image bg-shape-dez wow fadeIn" data-wow-duration="2s"><img height="550px" width="450px" src="public/assets/images/service/mob_app.jpg" alt="image" class="img-fluid"></div>
 </div>
 <div class="col-lg-7">
 <div class="common-heading">
@@ -287,7 +308,7 @@ We care about your idea, and we want to see it grow and succeed. That’s why we
 </p>
 
 </div>
-<div>
+<div >
   <img  src="public/assets/images/logo1.png">
 </div>
 </div>
@@ -442,7 +463,7 @@ We care about your idea, and we want to see it grow and succeed. That’s why we
 <a class="navbar-brand " href="#"> <img src="public/assets/images/logo1.png" alt="Logo" width="150" /></a>
 <p style="font-style: italic;">A website will allow your business or organization to be open 24 x 7.  Having a website is the equivalent of having an employee working around the clock – even weekends and holidays!</p>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-4 col-sm-6">
 <h5>Contact Us</h5>
 <ul class="footer-address-list ftr-details">
 <li>
@@ -459,7 +480,7 @@ We care about your idea, and we want to see it grow and succeed. That’s why we
 </li>
 </ul>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-2 col-sm-6">
 <h5>Services</h5>
 <ul class="footer-address-list link-hover">
 <li><a href="service">Web Development</a></li>

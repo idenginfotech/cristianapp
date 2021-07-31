@@ -3,8 +3,21 @@
 
 <!-- Mirrored from www.separateweb.com/niwax-demo/service-web.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jun 2021 14:07:17 GMT -->
 <head>
+  <style type="text/css">
+     .dsk-logo img{
+       border:2px solid #fff;
+  background: url(public/assets/image/logo1.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    }
+  </style>
+
 <meta charset="utf-8" />
-<title>Niwax - Web Design &amp; Digital Marketing Agency HTML Template</title>
+<title>Cristian App Developer</title>
 <meta name="description" content="Creative Agency, Marketing Agency Template">
 <meta name="keywords" content="Creative Agency, Marketing Agency">
 <meta name="author" content="rajesh-doot">
@@ -20,6 +33,9 @@
 
 <link href="public/assets/css/style.css" rel="stylesheet">
 <link href="public/assets/css/responsive.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
 </head>
 <body>
 <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
@@ -31,21 +47,21 @@
      </div>
 <div class="custom-nav" role="navigation">
 <ul class="nav-list">
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a style="color: black;" href="home" class="menu-links">Home</a>
 
 </li>
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a style="color: black;" href="service" class="menu-links">Services</a>
 
 </li>
 
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a style="color: black;" href="about" class="menu-links">About Us</a>
 
 </li>
 <li>
-<li class="sbmenu rpdropdown">
+<li class=" rpdropdown">
 <a style="color: black;" href="contact" class="menu-links">Contact Us</a>
 
 </li>
@@ -63,8 +79,9 @@
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-lg-7">
-<h1 class="mb30" style="text-align:center;"><span class="text-radius text-light text-animation bg-b">Services</span></h1>
-
+  <div class="bread-title wow fadeInUp" data-wow-delay=".5s">
+<h1 class="mb30" style="text-align:center;"><span class="text-radius text-light text-animation bg-b">SERVICES</span></h1>
+</div>
 </div>
 </div>
 </div>
@@ -96,19 +113,19 @@
 
 
 
-<section class="service-block pad-tb light-dark">
+<section class="service-block pad-tb light-dark" style="padding-top: 20px;">
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-lg-8">
 <div class="common-heading ptag">
 
-<h2>Our Services</h2>
-<p>Our IT services will help you meet the ever-changing requirements of your business and give you the needed flexibility</p>
+<h1 style="font-weight: bold;">Our Services</h1>
+<h3><p>Our IT services will help you meet the ever-changing requirements of your business and give you the needed flexibility</p></h3>
 </div>
 </div>
 </div>
 <div class="row upset justify-content-center mt60">
-<div class="col-lg-12 v-center order2">
+<div class="col-lg-12 col-sm-6 v-center order2">
 <div class="ps-block">
 <span>1</span>
 <h3>Mobile Application</h3>
@@ -117,7 +134,7 @@
 </p><hr>
 <h4 style="text-align:center;"> We build with following amazing features:</h4><br>
 <div class="row">
-<div class="col-lg-4">
+<div class="col-lg-6">
   <p >
  
 1   Background geolocation with battery saving<br>
@@ -137,7 +154,7 @@
 14  Speech Recognition and TextToSpeech<br>
 </p>
 </div>
-<div class="col-lg-4 v-center order1">
+<div class="col-lg-5 col-sm-6 v-center order1">
 <div class="image-block1">
 <img src="public/assets/images/service/mob.png" alt="Process" class="img-fluid" />
 </div>
@@ -200,71 +217,62 @@ Think of your website as being your online brochure or catalogue. It is much eas
 </section>
 
 <section class="service-block bg-gradient6 pad-tb">
-<div class="container">
   
+
+<div class="container">
 <div class="row justify-content-center">
 <div class="col-lg-6">
 <div class="common-heading ptag">
 <h2>MOBILE APPS</h2>
 <p class="mb30">We have multiple category for app development</p>
 </div>
+</div>  
+<div class="col-lg-12 col-centered">
+
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-col">
+             
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-col">
+              <div class="block green img-responsive"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-col">
+              <div class="block blue img-responsive"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-col">
+              <div class="block yellow img-responsive"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="left carousel-control">
+          <a href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </div>
+        <div class="right carousel-control">
+          <a href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div> 
 </div>
 </div>
 
-<div class="row upset link-hover">
-
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".2s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/logo-and-branding.svg" alt="service" class="img-fluid" /></div>
-<h4>Graphic Designing Services</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/service2.svg" alt="service" class="img-fluid" /></div>
-<h4>Responsive Web Designing</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".6s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/service3.svg" alt="service" class="img-fluid" /></div>
-<h4>Static Website Designing</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".8s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/service4.svg" alt="service" class="img-fluid" /></div>
-<h4>Dynamic Website Designing</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/service5.svg" alt="service" class="img-fluid" /></div>
-<h4>Psd to HTML Service</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
-<div class="s-block">
-<div class="s-card-icon"><img src="images/icons/service6.svg" alt="service" class="img-fluid" /></div>
-<h4>Website Redesign Service</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-</div>
-</div>
-</div>
-</div>
 </section>
-
-
-
-
-
-
-
 
 
 <footer>
@@ -276,12 +284,12 @@ Think of your website as being your online brochure or catalogue. It is much eas
 <a class="navbar-brand " href="#"> <img src="public/assets/images/logo1.png" alt="Logo" width="150" /></a>
 <p style="font-style: italic;">A website will allow your business or organization to be open 24 x 7.  Having a website is the equivalent of having an employee working around the clock – even weekends and holidays!</p>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-4 col-sm-6">
 <h5>Contact Us</h5>
 <ul class="footer-address-list ftr-details">
 <li>
 <span><i class="fas fa-envelope"></i></span>
-<p>Email <span> <a href=""><span class="__cf_email__" data-cfemail="a1c8cfc7cee1c3d4d2c8cfc4d2d2cfc0ccc48fc2cecc">christianappdevelopers@gmail.com</span></a></span></p>
+<p>Email <span> <a href=""><span >christianappdevelopers@gmail.com</span></a></span></p>
 </li>
 <li>
 <span><i class="fas fa-phone-alt"></i></span>
@@ -293,13 +301,13 @@ Think of your website as being your online brochure or catalogue. It is much eas
 </li>
 </ul>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-2 col-sm-6">
 <h5>Services</h5>
 <ul class="footer-address-list link-hover">
 <li><a href="service">Web Development</a></li>
 <li><a href="service">App development</a></li>
 <li><a href="service">Business Automation</a></li>
-<li><a href="service)">Web Hosting</a></li>
+<li><a href="service">Web Hosting</a></li>
 </ul>
 </div>
 
@@ -308,7 +316,7 @@ Think of your website as being your online brochure or catalogue. It is much eas
 <ul class="footer-address-list link-hover">
 <li><a href="service">Services</a></li>
 <li><a href="about">About us</a></li>
-<li><a href="contact">Contact Us</a></li>
+<li><a href="about">Contact Us</a></li>
 
 </ul>
 </div>
@@ -343,6 +351,9 @@ Think of your website as being your online brochure or catalogue. It is much eas
 <script src="public/assets/js/plugin.min.js"></script>
 
 <script src="public/assets/js/main.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </body>
 
 <!-- Mirrored from www.separateweb.com/niwax-demo/service-web.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jun 2021 14:07:23 GMT -->

@@ -3,8 +3,20 @@
 
 <!-- Mirrored from www.separateweb.com/niwax-demo/get-quote-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jun 2021 14:07:17 GMT -->
 <head>
+  <style type="text/css">
+     .dsk-logo img{
+       border:2px solid #fff;
+  background: url(public/assets/image/logo1.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    }
+  </style>
 <meta charset="utf-8" />
-<title>Niwax - Web Design &amp; Digital Marketing Agency HTML Template</title>
+<title>Cristian App Developer</title>
 <meta name="description" content="Creative Agency, Marketing Agency Template">
 <meta name="keywords" content="Creative Agency, Marketing Agency">
 <meta name="author" content="rajesh-doot">
@@ -31,21 +43,21 @@
      </div>
 <div class="custom-nav" role="navigation">
 <ul class="nav-list">
-<li class="sbmenu rpdropdown" style="color: black;">
+<li class=" rpdropdown" style="color: black;">
 <a style="color: black;" href="home" class="menu-links">Home</a>
 
 </li>
-<li class="sbmenu rpdropdown" style="color: black;">
+<li class=" rpdropdown" style="color: black;">
 <a style="color: black;" href="service" class="menu-links">Services</a>
 
 </li>
 
-<li class="sbmenu rpdropdown" style="color: black;">
+<li class=" rpdropdown" style="color: black;">
 <a style="color: black;" href="about" class="menu-links">About Us</a>
 
 </li>
 <li>
-<li class="sbmenu rpdropdown" style="color: black;">
+<li class=" rpdropdown" style="color: black;">
 <a style="color: black;" href="contact" class="menu-links">Contact Us</a>
 
 </li>
@@ -69,7 +81,7 @@
 
 </div>
 <div class="bread-title wow fadeInUp" data-wow-delay=".5s">
-<h1 class="mb30" style="text-align:center;"><span class="text-radius text-light text-animation bg-b">Contact</span></h1>
+<h1 class="mb30" style="text-align:center;"><span class="text-radius text-light text-animation bg-b">CONTACT</span></h1>
 
 </div>
 </div>
@@ -107,7 +119,7 @@
 <i class="fas fa-envelope"></i>
 </div>
 <div class="text pl-4">
-<p><span>Email:</span> <a href="https://www.separateweb.com/cdn-cgi/l/email-protection#86efe8e0e9c6e8eff1e7fea8e5e9eb"><span class="__cf_email__" data-cfemail="4f262129200f2126382e37612c2022">christianappdevelopers@gmail.com</span></a></p>
+<p>Email <span> <a href=""><span>christianappdevelopers@gmail.com</span></a></span></p>
 </div>
 </div>
 <div class="dbox d-flex align-items-start">
@@ -145,9 +157,10 @@
 <div class="form-group col-sm-6">
 <select name="Dtype" id="Dtype" required>
 <option value="">Select Requirement</option>
-<option value="web">web</option>
-<option value="graphic">graphic</option>
-<option value="video">video</option>
+<option value="Mobile app">Mobile app</option>
+<option value="Web development">Web development</option>
+<option value="Business Automation">Business Automation</option>
+<option value="Web Hosting">Web Hosting</option>
 </select>
 <div class="help-block with-errors"></div>
 </div>
@@ -194,12 +207,12 @@
 <a class="navbar-brand " href="#"> <img src="public/assets/images/logo1.png" alt="Logo" width="150" /></a>
 <p style="font-style: italic;">A website will allow your business or organization to be open 24 x 7.  Having a website is the equivalent of having an employee working around the clock – even weekends and holidays!</p>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-4 col-sm-6">
 <h5>Contact Us</h5>
 <ul class="footer-address-list ftr-details">
 <li>
 <span><i class="fas fa-envelope"></i></span>
-<p>Email <span> <a href="https://www.separateweb.com/cdn-cgi/l/email-protection#70191e161f30120503191e1503031e111d155e131f1d"><span class="__cf_email__" data-cfemail="a1c8cfc7cee1c3d4d2c8cfc4d2d2cfc0ccc48fc2cecc">christianappdevelopers@gmail.com</span></a></span></p>
+<p>Email <span> <a href=""><span >christianappdevelopers@gmail.com</span></a></span></p>
 </li>
 <li>
 <span><i class="fas fa-phone-alt"></i></span>
@@ -211,13 +224,13 @@
 </li>
 </ul>
 </div>
-<div class="col-lg-3 col-sm-6">
+<div class="col-lg-2 col-sm-6">
 <h5>Services</h5>
 <ul class="footer-address-list link-hover">
 <li><a href="service">Web Development</a></li>
 <li><a href="service">App development</a></li>
 <li><a href="service">Business Automation</a></li>
-<li><a href="service)">Web Hosting</a></li>
+<li><a href="service">Web Hosting</a></li>
 </ul>
 </div>
 
@@ -226,7 +239,8 @@
 <ul class="footer-address-list link-hover">
 <li><a href="service">Services</a></li>
 <li><a href="about">About us</a></li>
-<li><a href="contact">Contact Us</a></li>
+<li><a href="about">Contact Us</a></li>
+
 </ul>
 </div>
 </div>
@@ -252,7 +266,6 @@
 </div>
 </div>
 </footer>
-
 
 
 
