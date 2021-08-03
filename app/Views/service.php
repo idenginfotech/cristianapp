@@ -147,7 +147,7 @@
 <div class="col-lg-6">
 <div class="common-heading ptag">
 <h2>MOBILE APPS</h2>
-<p class="mb30">We have multiple category for app development</p>
+<p class="mb30">We have multiple categories for App Development</p>
 </div>
 </div>  
 <div class="col-lg-12 col-centered">
