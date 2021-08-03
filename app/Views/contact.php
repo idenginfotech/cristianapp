@@ -98,10 +98,13 @@
 <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
 <div class="help-block with-errors"></div>
 </div>
-<div style="" class="g-recaptcha pad-tb" data-sitekey="6LddetUbAAAAAH2OXu30Vfd9PiR09e-pwP370t_l"></div>
 <div class="custom-control custom-checkbox">
 <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
 <label class="custom-control-label" for="customCheck">I agree to the <a href="javascript:void(0)">Terms &amp; Conditions</a> of Cristian App Developers.</label>
+</div>
+<div class="recaptcha">
+  <div style="margin: auto;" class="g-recaptcha pad-tb" data-sitekey="6LddetUbAAAAAH2OXu30Vfd9PiR09e-pwP370t_l"></div>
+
 </div>
  
 <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span></button>
